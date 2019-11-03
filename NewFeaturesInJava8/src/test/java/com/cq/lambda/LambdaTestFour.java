@@ -18,7 +18,6 @@ package com.cq.lambda;
 import com.cq.common.Person;
 import org.junit.Test;
 
-import java.io.PrintStream;
 import java.util.Comparator;
 import java.util.function.*;
 
