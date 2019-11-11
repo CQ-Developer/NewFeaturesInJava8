@@ -27,6 +27,8 @@ import java.util.stream.LongStream;
 
 public class ForkJoinTest {
 
+    /* 计算1到100亿的和 */
+
     //使用传统的for循环
 
     @Test
@@ -39,6 +41,7 @@ public class ForkJoinTest {
         }
         Instant end = Instant.now();
 
+        System.out.println(sum);
         System.out.println("耗费时间" + Duration.between(start, end).toMillis());
     }
 
