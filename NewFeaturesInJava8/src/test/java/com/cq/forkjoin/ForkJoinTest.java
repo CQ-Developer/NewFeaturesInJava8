@@ -61,7 +61,7 @@ public class ForkJoinTest {
         System.out.println("耗费时间" + Duration.between(start, end).toMillis());
     }
 
-    //使用Java8新特性并行流
+    //使用Java8新特性：并行流
 
     @Test
     public void testParallelOne() {
