@@ -1,5 +1,5 @@
 /*
-时间日期格式化
+ * 时间日期格式化
  */
 
 package com.cq.time;
@@ -8,7 +8,6 @@ import org.junit.Test;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Locale;
 
 public class DateTimeFormatterTestOne {
 
